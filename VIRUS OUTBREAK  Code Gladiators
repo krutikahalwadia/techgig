@@ -1,0 +1,29 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+
+def main():
+
+ # Write code here 
+ n=input()
+ a=int(input())
+ for i in range(a):
+     p=''
+     k=input()
+     j=0
+     t=0
+     x=len(n)
+     y=len(k)
+     while(j<x and t<y):
+         if(n[j]==k[t]):
+             p=p+n[j]
+             j=j+1
+             t=t+1
+         else:
+             j=j+1
+     if(p==k):
+         print("POSITIVE")
+     else:
+         print("NEGATIVE")    
+
+main()
+
