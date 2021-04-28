@@ -1,0 +1,7 @@
+def main():
+
+ # Write code here 
+ a=input()
+ print("Hello techgig")
+ print(a)
+main()
